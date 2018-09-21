@@ -11,7 +11,7 @@ class Project(models.Model):
         related_name='projects'
     )
     group = models.CharField(max_length=55)
-    donor = models.CharField(
+    donor = models.ForeignKey(
         'Organisation',
         on_delete=models.DO_NOTHING,
         related_name='projects'
