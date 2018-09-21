@@ -1,6 +1,8 @@
 from django.db import models
 from django.core.validators import MaxValueValidator
 
+from django_countries.fields import CountryField
+
 
 class Project(models.Model):
     ilri_code = models.CharField(max_length=55, unique=True)
@@ -138,15 +140,13 @@ class PersonRole(models.Model):
 
 
 class Country(models.Model):
-    alpha2_code = models.CharField(max_length=2, unique=True)
-    alpha3_code = models.CharField(max_length=3, unique=True)
-    name = models.CharField(max_length=100)
+    country = CountryField()
 
     class Meta:
-        ordering = ('name',)
+        ordering = ('country',)
 
     def __str__(self):
-        return self.name
+        return self.country.name
 
 
 class CountryRole(models.Model):
