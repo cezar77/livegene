@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.validators import MaxValueValidator
 
 
 class Project(models.Model):
@@ -20,8 +21,8 @@ class Project(models.Model):
     donor_project_name = models.CharField(max_length=100)
     start_date = models.DateField()
     end_date = models.DateField()
-    status = models.PositiveSmallIntegerField(max_value=100)
-    capacity_development = models.PositiveSmallIntegerField(max_value=100)
+    status = models.PositiveSmallIntegerField(validators=[MaxValueValidator(100)])
+    capacity_development = models.PositiveSmallIntegerField(validators=[MaxValueValidator(100)])
 
     class Meta:
         ordering = ('ilri_code',)
@@ -127,7 +128,7 @@ class PersonRole(models.Model):
         on_delete=models.CASCADE,
         related_name='roles'
     )
-    percent = models.PositiveSmallIntegerField(max_value=100)
+    percent = models.PositiveSmallIntegerField(validators=[MaxValueValidator(100)])
 
     class Meta:
         unique_together = ('project', 'person')
@@ -159,7 +160,7 @@ class CountryRole(models.Model):
         on_delete=models.CASCADE,
         related_name='roles'
     )
-    percent = models.PositiveSmallIntegerField(max_value=100)
+    percent = models.PositiveSmallIntegerField(validators=[MaxValueValidator(100)])
 
     class Meta:
         unique_together = ('project', 'country')
@@ -200,7 +201,7 @@ class SDGRole(models.Model):
         on_delete=models.CASCADE,
         related_name='roles'
     )
-    percent = models.PositiveSmallIntegerField(max_value=100)
+    percent = models.PositiveSmallIntegerField(validators=[MaxValueValidator(100)])
 
     class Meta:
         unique_together = ('project', 'sdg')

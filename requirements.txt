@@ -1,3 +1,4 @@
 Django==2.1.1
 ## dependencies
 # pytz==2018.5
+Pillow==5.2.0
