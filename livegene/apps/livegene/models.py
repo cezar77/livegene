@@ -83,7 +83,7 @@ class PartnershipRoleType(models.Model):
 class Organisation(models.Model):
     short_name = models.CharField(max_length=15, blank=True)
     full_name = models.CharField(max_length=100, unique=True)
-    logo = models.ImageField(blank=True, null=True)
+    logo_url = models.URLField(blank=True, null=True)
     country = models.ForeignKey(
         'Country',
         on_delete=models.DO_NOTHING,
