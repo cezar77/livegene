@@ -139,14 +139,24 @@ class PersonRole(models.Model):
         return '{0} - {1}'.format(self.project, self.person)
 
 
+class CountryManager(models.Manager):
+    def get_by_natural_key(self, country):
+        return self.get(country=country)
+
+
 class Country(models.Model):
     country = CountryField()
+
+    objects = CountryManager()
 
     class Meta:
         ordering = ('country',)
 
     def __str__(self):
         return self.country.name
+
+    def natural_key(self):
+        return (self.country.country,)
 
 
 class CountryRole(models.Model):
