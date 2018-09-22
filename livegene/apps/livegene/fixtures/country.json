@@ -138,5 +138,12 @@
          "fields": {
               "country": "ZA"
          }
+    },
+    {
+         "model": "livegene.country",
+         "pk": 21,
+         "fields": {
+              "country": "BF"
+         }
     }
 ]
