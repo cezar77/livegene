@@ -21,11 +21,11 @@ class Project(models.Model):
         related_name='projects'
     )
     group = models.CharField(max_length=55)
-    donor = models.ForeignKey(
-        'Organisation',
-        on_delete=models.DO_NOTHING,
-        related_name='projects'
-    )
+    #donor = models.ForeignKey(
+    #    'Organisation',
+    #    on_delete=models.DO_NOTHING,
+    #    related_name='projects'
+    #)
     donor_reference = models.CharField(max_length=55)
     donor_project_name = models.CharField(max_length=100)
     start_date = models.DateField()
