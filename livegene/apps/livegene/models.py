@@ -3,6 +3,8 @@ from django.core.validators import MaxValueValidator
 
 from django_countries.fields import CountryField
 
+from .validators import validate_lowercase
+
 
 class Project(models.Model):
     ilri_code = models.CharField(max_length=55, unique=True)
@@ -103,7 +105,17 @@ class Organisation(models.Model):
         return self.full_name
 
 
+class PersonManager(models.Manager):
+    def get_by_natural_key(self, username):
+        return self.get(username=username)
+
+
 class Person(models.Model):
+    username = models.CharField(
+        max_length=8,
+        unique=True,
+        validators=[validate_lowercase]
+    )
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=100)
     home_program = models.CharField(max_length=100)
@@ -121,6 +133,9 @@ class Person(models.Model):
     @property
     def full_name(self):
         return '{0} {1}'.format(self.first_name, self.last_name)
+
+    def natural_key(self):
+        return (self.username,)
 
 
 class PersonRole(models.Model):
