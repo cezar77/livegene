@@ -112,7 +112,7 @@ class PersonManager(models.Manager):
 
 class Person(models.Model):
     username = models.CharField(
-        max_length=8,
+        max_length=12,
         unique=True,
         validators=[validate_lowercase]
     )
