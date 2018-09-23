@@ -6,6 +6,11 @@ from django_countries.fields import CountryField
 from .validators import validate_lowercase
 
 
+class ProjectManager(models.Model):
+    def get_by_natural_key(self, ilri_code):
+        return self.get(ilri_code=ilri_code)
+
+
 class Project(models.Model):
     ilri_code = models.CharField(max_length=55, unique=True)
     full_name = models.CharField(max_length=100, unique=True)
@@ -32,11 +37,16 @@ class Project(models.Model):
         validators=[MaxValueValidator(100)]
     )
 
+    objects = ProjectManager()
+
     class Meta:
         ordering = ('ilri_code',)
 
     def __str__(self):
         return '{0} ({1})'.format(self.full_name, self.ilri_code)
+
+    def natural_key(self):
+        return (self.ilri_code,)
 
 
 class Partnership(models.Model):
@@ -121,6 +131,7 @@ class Person(models.Model):
     home_program = models.CharField(max_length=100)
     email = models.EmailField(validators=[validate_lowercase])
 
+    objects = PersonManager()
 
     class Meta:
         verbose_name_plural = 'people'
