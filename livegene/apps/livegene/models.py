@@ -119,8 +119,7 @@ class Person(models.Model):
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=100)
     home_program = models.CharField(max_length=100)
-    email = models.EmailField()
-    phone = models.CharField(max_length=30, blank=True)
+    email = models.EmailField(validators=[validate_lowercase])
 
 
     class Meta:
