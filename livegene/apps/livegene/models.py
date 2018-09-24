@@ -26,8 +26,8 @@ class Project(models.Model):
     #    on_delete=models.DO_NOTHING,
     #    related_name='projects'
     #)
-    donor_reference = models.CharField(max_length=55, blank=True, null=True)
-    donor_project_name = models.CharField(max_length=100, blank=True, null=True)
+    donor_reference = models.CharField(max_length=55, blank=True)
+    donor_project_name = models.CharField(max_length=100, blank=True)
     start_date = models.DateField()
     end_date = models.DateField()
     status = models.PositiveSmallIntegerField(
