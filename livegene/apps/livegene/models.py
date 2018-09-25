@@ -183,6 +183,7 @@ class Country(models.Model):
     objects = CountryManager()
 
     class Meta:
+        verbose_name_plural = 'countries'
         ordering = ('country',)
 
     def __str__(self):
@@ -227,9 +228,9 @@ class SDG(models.Model):
     logo_url = models.URLField(verbose_name='Logo URL', unique=True)
 
     class Meta:
-        ordering = ('pk',)
         verbose_name = 'Sustainable Development Goal'
         verbose_name_plural = 'Sustainable Development Goals'
+        ordering = ('pk',)
 
     def __str__(self):
         return self.headline
