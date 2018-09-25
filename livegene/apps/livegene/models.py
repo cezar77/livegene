@@ -1,5 +1,6 @@
 from django.db import models
 from django.core.validators import MaxValueValidator
+from django.utils.html import format_html
 
 from django_countries.fields import CountryField
 from colorfield.fields import ColorField
@@ -223,15 +224,23 @@ class SDG(models.Model):
     full_name = models.CharField(max_length=100)
     color = ColorField()
     link = models.URLField(unique=True)
-    logo_url = models.URLField(unique=True)
+    logo_url = models.URLField(verbose_name='Logo URL', unique=True)
 
     class Meta:
-        ordering = ('headline', 'full_name')
+        ordering = ('pk',)
         verbose_name = 'Sustainable Development Goal'
         verbose_name_plural = 'Sustainable Development Goals'
 
     def __str__(self):
         return self.headline
+
+    @property
+    def logo(self):
+        return format_html(
+            '<img src="{logo_url}" alt="{headline}">',
+            logo_url=self.logo_url,
+            headline=self.headline
+        )
 
 
 class SDGRole(models.Model):
