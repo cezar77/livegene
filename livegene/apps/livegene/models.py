@@ -299,15 +299,25 @@ class SamplingActivity(models.Model):
         return self.description
 
 
+class SamplingDocumentTypeManager(models.Manager):
+    def get_by_natural_key(self, short_name):
+        return self.get(short_name=short_name)
+
+
 class SamplingDocumentType(models.Model):
     short_name = models.CharField(max_length=15)
     long_name = models.CharField(max_length=50)
 
+    objects = SamplingDocumentTypeManager()
+
     class Meta:
-        ordering = ('long_name',)
+        ordering = ('short_name', 'long_name')
 
     def __str__(self):
-        return self.long_name
+        return self.short_name
+
+    def natural_key(self):
+        return (self.short_name,)    
 
 
 class SamplingDocument(models.Model):
