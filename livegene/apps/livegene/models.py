@@ -2,6 +2,7 @@ from django.db import models
 from django.core.validators import MaxValueValidator
 
 from django_countries.fields import CountryField
+from colorfield.fields import ColorField
 
 from .validators import validate_lowercase
 
@@ -220,7 +221,7 @@ class SDG(models.Model):
     """
     headline = models.CharField(max_length=30)
     full_name = models.CharField(max_length=100)
-    color = models.CharField(max_length=7)
+    color = ColorField()
     link = models.URLField(unique=True)
     logo_url = models.URLField(unique=True)
 
