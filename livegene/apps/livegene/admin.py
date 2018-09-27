@@ -3,7 +3,22 @@ from django.db import models
 from django.forms import TextInput
 from django.contrib.admin.widgets import AdminURLFieldWidget
 
-from .models import SDG
+from .models import (
+    Project,
+    PartnershipRoleType,
+    Person,
+    Country,
+    SDG,
+    SamplingActivity,
+    SamplingDocumentType,
+    SamplingDocument
+)
+
+
+class PartnershipRoleTypeAdmin(admin.ModelAdmin):
+    list_display = ('id', 'description')
+    fields = ('id', 'description')
+    readonly_fields = ('id',)
 
 
 class SDGAdmin(admin.ModelAdmin):
@@ -19,4 +34,11 @@ class SDGAdmin(admin.ModelAdmin):
     }
 
 
+admin.site.register(Project)
+admin.site.register(PartnershipRoleType, PartnershipRoleTypeAdmin)
+admin.site.register(Person)
+admin.site.register(Country)
 admin.site.register(SDG, SDGAdmin)
+admin.site.register(SamplingDocumentType)
+admin.site.register(SamplingActivity)
+admin.site.register(SamplingDocument)
