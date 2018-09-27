@@ -7,7 +7,7 @@ class Expenditure(models.Model):
     home_program = models.CharField(max_length=100)
     start_date = models.DateField()
     end_date = models.DateField(blank=True, null=True)
-    report_date = models.DateField()
+    report_date = models.DateTimeField()
     total_budget = models.PositiveIntegerField(blank=True, null=True)
     amount = models.PositiveIntegerField(blank=True, null=True)
 
