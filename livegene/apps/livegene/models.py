@@ -266,27 +266,6 @@ class SDGRole(models.Model):
         return '{0} - {1}'.format(self.project, self.sdg)
 
 
-class Expenditure(models.Model):
-    project = models.ForeignKey(
-        'Project',
-        on_delete=models.DO_NOTHING,
-        related_name='expenditures'
-    )
-    name = models.CharField(max_length=100)
-    home_program = models.CharField(max_length=100)
-    start_date = models.DateField()
-    end_date = models.DateField()
-    report_date = models.DateField()
-    total_budget = models.PositiveIntegerField()
-    amount = models.PositiveIntegerField()
-
-    class Meta:
-        ordering = ('name',)
-
-    def __str__(self):
-        return self.name
-
-
 class SamplingActivity(models.Model):
     project = models.ForeignKey(
         'Project',

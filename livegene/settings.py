@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'colorfield',
     # custom apps
     'livegene.apps.livegene',
+    'livegene.apps.finance',
 ]
 
 MIDDLEWARE = [
