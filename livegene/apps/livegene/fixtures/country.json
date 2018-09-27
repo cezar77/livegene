@@ -1,149 +1,450 @@
 [
     {
-         "model": "livegene.country",
-         "pk": 1,
-         "fields": {
-              "country": "MW"
-         }
+        "fields": {
+            "country": "AO"
+        },
+        "pk": 1,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 2,
-         "fields": {
-              "country": "AT"
-         }
+        "fields": {
+            "country": "AT"
+        },
+        "pk": 2,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 3,
-         "fields": {
+        "fields": {
             "country": "AU"
-         }
+        },
+        "pk": 3,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 4,
-         "fields": {
-              "country": "CN"
-         }
+        "fields": {
+            "country": "BF"
+        },
+        "pk": 4,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 5,
-         "fields": {
-              "country": "CO"
-         }
+        "fields": {
+            "country": "BI"
+        },
+        "pk": 5,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 6,
-         "fields": {
-              "country": "ET"
-         }
+        "fields": {
+            "country": "BJ"
+        },
+        "pk": 6,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 7,
-         "fields": {
-              "country": "FI"
-         }
+        "fields": {
+            "country": "BW"
+        },
+        "pk": 7,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 8,
-         "fields": {
-              "country": "GB"
-         }
+        "fields": {
+            "country": "CD"
+        },
+        "pk": 8,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 9,
-         "fields": {
-              "country": "IN"
-         }
+        "fields": {
+            "country": "CF"
+        },
+        "pk": 9,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 10,
-         "fields": {
-              "country": "KE"
-         }
+        "fields": {
+            "country": "CG"
+        },
+        "pk": 10,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 11,
-         "fields": {
-              "country": "NG"
-         }
+        "fields": {
+            "country": "CI"
+        },
+        "pk": 11,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 12,
-         "fields": {
-              "country": "NI"
-         }
+        "fields": {
+            "country": "CM"
+        },
+        "pk": 12,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 13,
-         "fields": {
-              "country": "NL"
-         }
+        "fields": {
+            "country": "CN"
+        },
+        "pk": 13,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 14,
-         "fields": {
-              "country": "SE"
-         }
+        "fields": {
+            "country": "CO"
+        },
+        "pk": 14,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 15,
-         "fields": {
-              "country": "SN"
-         }
+        "fields": {
+            "country": "CV"
+        },
+        "pk": 15,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 16,
-         "fields": {
-              "country": "TG"
-         }
+        "fields": {
+            "country": "DJ"
+        },
+        "pk": 16,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 17,
-         "fields": {
-              "country": "TZ"
-         }
+        "fields": {
+            "country": "ER"
+        },
+        "pk": 17,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 18,
-         "fields": {
-              "country": "UG"
-         }
+        "fields": {
+            "country": "ET"
+        },
+        "pk": 18,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 19,
-         "fields": {
-              "country": "US"
-         }
+        "fields": {
+            "country": "FI"
+        },
+        "pk": 19,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 20,
-         "fields": {
-              "country": "ZA"
-         }
+        "fields": {
+            "country": "GA"
+        },
+        "pk": 20,
+        "model": "livegene.country"
     },
     {
-         "model": "livegene.country",
-         "pk": 21,
-         "fields": {
-              "country": "BF"
-         }
+        "fields": {
+            "country": "GB"
+        },
+        "pk": 21,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "GH"
+        },
+        "pk": 22,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "GM"
+        },
+        "pk": 23,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "GN"
+        },
+        "pk": 24,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "GQ"
+        },
+        "pk": 25,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "GW"
+        },
+        "pk": 26,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "IN"
+        },
+        "pk": 27,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "KE"
+        },
+        "pk": 28,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "KM"
+        },
+        "pk": 29,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "LR"
+        },
+        "pk": 30,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "LS"
+        },
+        "pk": 31,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "MG"
+        },
+        "pk": 32,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "ML"
+        },
+        "pk": 33,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "MR"
+        },
+        "pk": 34,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "MU"
+        },
+        "pk": 35,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "MW"
+        },
+        "pk": 36,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "MZ"
+        },
+        "pk": 37,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "NA"
+        },
+        "pk": 38,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "NE"
+        },
+        "pk": 39,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "NG"
+        },
+        "pk": 40,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "NI"
+        },
+        "pk": 41,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "NL"
+        },
+        "pk": 42,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "RE"
+        },
+        "pk": 43,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "RW"
+        },
+        "pk": 44,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "SC"
+        },
+        "pk": 45,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "SD"
+        },
+        "pk": 46,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "SE"
+        },
+        "pk": 47,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "SH"
+        },
+        "pk": 48,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "SL"
+        },
+        "pk": 49,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "SN"
+        },
+        "pk": 50,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "SO"
+        },
+        "pk": 51,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "SS"
+        },
+        "pk": 52,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "ST"
+        },
+        "pk": 53,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "SZ"
+        },
+        "pk": 54,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "TD"
+        },
+        "pk": 55,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "TG"
+        },
+        "pk": 56,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "TZ"
+        },
+        "pk": 57,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "UG"
+        },
+        "pk": 58,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "US"
+        },
+        "pk": 59,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "VN"
+        },
+        "pk": 60,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "YT"
+        },
+        "pk": 61,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "ZA"
+        },
+        "pk": 62,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "ZM"
+        },
+        "pk": 63,
+        "model": "livegene.country"
+    },
+    {
+        "fields": {
+            "country": "ZW"
+        },
+        "pk": 64,
+        "model": "livegene.country"
     }
 ]
