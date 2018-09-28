@@ -189,13 +189,13 @@ class ContactPerson(models.Model):
     @property
     def full_name(self):
         if self.title:
-            return '{} {} {}'.format(
+            return '{0} {1} {2}'.format(
                 self.title,
                 self.first_name,
                 self.last_name
             )
         else:
-            return '{} {}'.format(self.first_name, self.last_name)
+            return '{0} {1}'.format(self.first_name, self.last_name)
 
 
 class CountryManager(models.Manager):

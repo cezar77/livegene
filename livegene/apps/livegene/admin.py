@@ -7,6 +7,7 @@ from .models import (
     Project,
     PartnershipRoleType,
     Person,
+    ContactPerson,
     Country,
     SDG,
     SamplingActivity,
@@ -37,6 +38,7 @@ class SDGAdmin(admin.ModelAdmin):
 admin.site.register(Project)
 admin.site.register(PartnershipRoleType, PartnershipRoleTypeAdmin)
 admin.site.register(Person)
+admin.site.register(ContactPerson)
 admin.site.register(Country)
 admin.site.register(SDG, SDGAdmin)
 admin.site.register(SamplingDocumentType)
