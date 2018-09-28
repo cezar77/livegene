@@ -1,0 +1,1334 @@
+[
+    {
+        "fields": {
+            "partnership": 2,
+            "role_type": 2,
+            "project": 37
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "partnership": 5,
+            "role_type": 3,
+            "project": 37
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "partnership": 6,
+            "role_type": 3,
+            "project": 2
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "partnership": 7,
+            "role_type": 2,
+            "project": 2
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "partnership": 8,
+            "role_type": 2,
+            "project": 2
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "partnership": 8,
+            "role_type": 1,
+            "project": 17
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "partnership": 9,
+            "role_type": 3,
+            "project": 2
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "partnership": 10,
+            "role_type": 3,
+            "project": 1
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "partnership": 11,
+            "role_type": 3,
+            "project": 2
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "partnership": 12,
+            "role_type": 3,
+            "project": 2
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "partnership": 13,
+            "role_type": 3,
+            "project": 2
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "partnership": 14,
+            "role_type": 2,
+            "project": 1
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "partnership": 15,
+            "role_type": 3,
+            "project": 1
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "partnership": 16,
+            "role_type": 3,
+            "project": 1
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "partnership": 17,
+            "role_type": 2,
+            "project": 1
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 15
+    },
+    {
+        "fields": {
+            "partnership": 18,
+            "role_type": 2,
+            "project": 9
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 16
+    },
+    {
+        "fields": {
+            "partnership": 19,
+            "role_type": 1,
+            "project": 41
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 17
+    },
+    {
+        "fields": {
+            "partnership": 20,
+            "role_type": 3,
+            "project": 2
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 18
+    },
+    {
+        "fields": {
+            "partnership": 21,
+            "role_type": 2,
+            "project": 3
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 19
+    },
+    {
+        "fields": {
+            "partnership": 21,
+            "role_type": 2,
+            "project": 2
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 20
+    },
+    {
+        "fields": {
+            "partnership": 21,
+            "role_type": 2,
+            "project": 7
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 21
+    },
+    {
+        "fields": {
+            "partnership": 21,
+            "role_type": 2,
+            "project": 4
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 22
+    },
+    {
+        "fields": {
+            "partnership": 21,
+            "role_type": 2,
+            "project": 6
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 23
+    },
+    {
+        "fields": {
+            "partnership": 21,
+            "role_type": 2,
+            "project": 8
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 24
+    },
+    {
+        "fields": {
+            "partnership": 21,
+            "role_type": 2,
+            "project": 5
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 25
+    },
+    {
+        "fields": {
+            "partnership": 22,
+            "role_type": 3,
+            "project": 3
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 26
+    },
+    {
+        "fields": {
+            "partnership": 23,
+            "role_type": 3,
+            "project": 3
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 27
+    },
+    {
+        "fields": {
+            "partnership": 24,
+            "role_type": 3,
+            "project": 23
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 28
+    },
+    {
+        "fields": {
+            "partnership": 24,
+            "role_type": 3,
+            "project": 3
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 29
+    },
+    {
+        "fields": {
+            "partnership": 25,
+            "role_type": 2,
+            "project": 2
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 30
+    },
+    {
+        "fields": {
+            "partnership": 25,
+            "role_type": 2,
+            "project": 3
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 31
+    },
+    {
+        "fields": {
+            "partnership": 25,
+            "role_type": 2,
+            "project": 1
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 32
+    },
+    {
+        "fields": {
+            "partnership": 25,
+            "role_type": 2,
+            "project": 7
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 33
+    },
+    {
+        "fields": {
+            "partnership": 25,
+            "role_type": 2,
+            "project": 4
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 34
+    },
+    {
+        "fields": {
+            "partnership": 25,
+            "role_type": 2,
+            "project": 5
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 35
+    },
+    {
+        "fields": {
+            "partnership": 25,
+            "role_type": 2,
+            "project": 6
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 36
+    },
+    {
+        "fields": {
+            "partnership": 25,
+            "role_type": 2,
+            "project": 8
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 37
+    },
+    {
+        "fields": {
+            "partnership": 26,
+            "role_type": 2,
+            "project": 3
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 38
+    },
+    {
+        "fields": {
+            "partnership": 27,
+            "role_type": 2,
+            "project": 7
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 39
+    },
+    {
+        "fields": {
+            "partnership": 28,
+            "role_type": 2,
+            "project": 18
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 40
+    },
+    {
+        "fields": {
+            "partnership": 28,
+            "role_type": 2,
+            "project": 52
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 41
+    },
+    {
+        "fields": {
+            "partnership": 28,
+            "role_type": 2,
+            "project": 7
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 42
+    },
+    {
+        "fields": {
+            "partnership": 29,
+            "role_type": 1,
+            "project": 48
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 43
+    },
+    {
+        "fields": {
+            "partnership": 30,
+            "role_type": 2,
+            "project": 5
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 44
+    },
+    {
+        "fields": {
+            "partnership": 31,
+            "role_type": 2,
+            "project": 5
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 45
+    },
+    {
+        "fields": {
+            "partnership": 31,
+            "role_type": 2,
+            "project": 33
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 46
+    },
+    {
+        "fields": {
+            "partnership": 31,
+            "role_type": 2,
+            "project": 5
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 47
+    },
+    {
+        "fields": {
+            "partnership": 32,
+            "role_type": 1,
+            "project": 2
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 48
+    },
+    {
+        "fields": {
+            "partnership": 32,
+            "role_type": 1,
+            "project": 1
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 49
+    },
+    {
+        "fields": {
+            "partnership": 32,
+            "role_type": 1,
+            "project": 9
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 50
+    },
+    {
+        "fields": {
+            "partnership": 32,
+            "role_type": 1,
+            "project": 45
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 51
+    },
+    {
+        "fields": {
+            "partnership": 32,
+            "role_type": 1,
+            "project": 3
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 52
+    },
+    {
+        "fields": {
+            "partnership": 32,
+            "role_type": 1,
+            "project": 4
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 53
+    },
+    {
+        "fields": {
+            "partnership": 32,
+            "role_type": 1,
+            "project": 6
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 54
+    },
+    {
+        "fields": {
+            "partnership": 32,
+            "role_type": 1,
+            "project": 7
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 55
+    },
+    {
+        "fields": {
+            "partnership": 32,
+            "role_type": 1,
+            "project": 8
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 56
+    },
+    {
+        "fields": {
+            "partnership": 32,
+            "role_type": 1,
+            "project": 44
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 57
+    },
+    {
+        "fields": {
+            "partnership": 32,
+            "role_type": 1,
+            "project": 5
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 58
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 13
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 59
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 14
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 60
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 15
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 61
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 16
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 62
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 38
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 63
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 37
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 64
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 52
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 65
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 2
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 66
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 1
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 67
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 9
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 68
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 45
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 69
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 24
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 70
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 10
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 71
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 11
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 72
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 12
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 73
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 26
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 74
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 27
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 75
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 28
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 76
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 29
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 77
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 30
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 78
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 31
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 79
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 32
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 80
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 34
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 81
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 35
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 82
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 36
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 83
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 47
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 84
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 22
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 85
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 49
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 86
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 18
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 87
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 51
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 88
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 23
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 89
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 39
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 90
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 2,
+            "project": 41
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 91
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 42
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 92
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 25
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 93
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 50
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 94
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 43
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 95
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 40
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 96
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 46
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 97
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 3
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 98
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 5
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 99
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 7
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 100
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 44
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 101
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 48
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 102
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 19
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 103
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 20
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 104
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 21
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 105
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 17
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 106
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 33
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 107
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 4
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 108
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 6
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 109
+    },
+    {
+        "fields": {
+            "partnership": 33,
+            "role_type": 1,
+            "project": 8
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 110
+    },
+    {
+        "fields": {
+            "partnership": 34,
+            "role_type": 1,
+            "project": 44
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 111
+    },
+    {
+        "fields": {
+            "partnership": 35,
+            "role_type": 1,
+            "project": 13
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 112
+    },
+    {
+        "fields": {
+            "partnership": 35,
+            "role_type": 1,
+            "project": 14
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 113
+    },
+    {
+        "fields": {
+            "partnership": 35,
+            "role_type": 1,
+            "project": 15
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 114
+    },
+    {
+        "fields": {
+            "partnership": 35,
+            "role_type": 1,
+            "project": 16
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 115
+    },
+    {
+        "fields": {
+            "partnership": 35,
+            "role_type": 1,
+            "project": 38
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 116
+    },
+    {
+        "fields": {
+            "partnership": 35,
+            "role_type": 1,
+            "project": 37
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 117
+    },
+    {
+        "fields": {
+            "partnership": 36,
+            "role_type": 2,
+            "project": 7
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 118
+    },
+    {
+        "fields": {
+            "partnership": 37,
+            "role_type": 1,
+            "project": 19
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 119
+    },
+    {
+        "fields": {
+            "partnership": 37,
+            "role_type": 1,
+            "project": 20
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 120
+    },
+    {
+        "fields": {
+            "partnership": 37,
+            "role_type": 1,
+            "project": 21
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 121
+    },
+    {
+        "fields": {
+            "partnership": 37,
+            "role_type": 1,
+            "project": 33
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 122
+    },
+    {
+        "fields": {
+            "partnership": 37,
+            "role_type": 1,
+            "project": 5
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 123
+    },
+    {
+        "fields": {
+            "partnership": 38,
+            "role_type": 3,
+            "project": 2
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 124
+    },
+    {
+        "fields": {
+            "partnership": 39,
+            "role_type": 3,
+            "project": 6
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 125
+    },
+    {
+        "fields": {
+            "partnership": 40,
+            "role_type": 1,
+            "project": 10
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 126
+    },
+    {
+        "fields": {
+            "partnership": 40,
+            "role_type": 1,
+            "project": 11
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 127
+    },
+    {
+        "fields": {
+            "partnership": 40,
+            "role_type": 1,
+            "project": 12
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 128
+    },
+    {
+        "fields": {
+            "partnership": 41,
+            "role_type": 3,
+            "project": 1
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 129
+    },
+    {
+        "fields": {
+            "partnership": 42,
+            "role_type": 3,
+            "project": 52
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 130
+    },
+    {
+        "fields": {
+            "partnership": 42,
+            "role_type": 3,
+            "project": 2
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 131
+    },
+    {
+        "fields": {
+            "partnership": 42,
+            "role_type": 3,
+            "project": 1
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 132
+    },
+    {
+        "fields": {
+            "partnership": 42,
+            "role_type": 3,
+            "project": 9
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 133
+    },
+    {
+        "fields": {
+            "partnership": 42,
+            "role_type": 3,
+            "project": 26
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 134
+    },
+    {
+        "fields": {
+            "partnership": 42,
+            "role_type": 3,
+            "project": 27
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 135
+    },
+    {
+        "fields": {
+            "partnership": 42,
+            "role_type": 3,
+            "project": 29
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 136
+    },
+    {
+        "fields": {
+            "partnership": 42,
+            "role_type": 3,
+            "project": 30
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 137
+    },
+    {
+        "fields": {
+            "partnership": 42,
+            "role_type": 3,
+            "project": 32
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 138
+    },
+    {
+        "fields": {
+            "partnership": 42,
+            "role_type": 3,
+            "project": 3
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 139
+    },
+    {
+        "fields": {
+            "partnership": 42,
+            "role_type": 3,
+            "project": 4
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 140
+    },
+    {
+        "fields": {
+            "partnership": 42,
+            "role_type": 3,
+            "project": 7
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 141
+    },
+    {
+        "fields": {
+            "partnership": 42,
+            "role_type": 3,
+            "project": 8
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 142
+    },
+    {
+        "fields": {
+            "partnership": 42,
+            "role_type": 3,
+            "project": 5
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 143
+    },
+    {
+        "fields": {
+            "partnership": 42,
+            "role_type": 3,
+            "project": 33
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 144
+    },
+    {
+        "fields": {
+            "partnership": 43,
+            "role_type": 3,
+            "project": 6
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 145
+    },
+    {
+        "fields": {
+            "partnership": 43,
+            "role_type": 3,
+            "project": 5
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 146
+    },
+    {
+        "fields": {
+            "partnership": 43,
+            "role_type": 3,
+            "project": 33
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 147
+    },
+    {
+        "fields": {
+            "partnership": 44,
+            "role_type": 3,
+            "project": 33
+        },
+        "model": "livegene.partnershiprole",
+        "pk": 148
+    }
+]
