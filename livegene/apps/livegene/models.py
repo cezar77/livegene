@@ -57,13 +57,13 @@ class Partnership(models.Model):
         on_delete=models.DO_NOTHING,
         related_name='partnerships'
     )
-    contact = models.ForeignKey(
-        'Person',
-        on_delete=models.DO_NOTHING,
-        related_name='partnerships'
+    contact = models.ManyToManyField(
+        'ContactPerson',
+        related_name='partnerships',
+        blank=True
     )
-    start_date = models.DateField()
-    end_date = models.DateField()
+    start_date = models.DateField(null=True)
+    end_date = models.DateField(null=True)
 
     class Meta:
         ordering = ('-end_date', '-start_date')
