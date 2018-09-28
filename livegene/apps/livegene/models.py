@@ -172,6 +172,32 @@ class PersonRole(models.Model):
         return '{0} - {1}'.format(self.project, self.person)
 
 
+class ContactPerson(models.Model):
+    title = models.CharField(max_length=30, blank=True)
+    first_name = models.CharField(max_length=50)
+    last_name = models.CharField(max_length=100)
+    email = models.EmailField(blank=True, validators=[validate_lowercase])
+    phone = models.CharField(max_length=30, blank=True)
+
+    class Meta:
+        verbose_name_plural = 'contact people'
+        ordering = ('last_name', 'first_name')
+
+    def __str__(self):
+        return self.full_name
+
+    @property
+    def full_name(self):
+        if self.title:
+            return '{} {} {}'.format(
+                self.title,
+                self.first_name,
+                self.last_name
+            )
+        else:
+            return '{} {}'.format(self.first_name, self.last_name)
+
+
 class CountryManager(models.Manager):
     def get_by_natural_key(self, country):
         return self.get(country=country)
