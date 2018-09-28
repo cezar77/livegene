@@ -6,6 +6,7 @@ from django.contrib.admin.widgets import AdminURLFieldWidget
 from .models import (
     Project,
     Partnership,
+    PartnershipRole,
     PartnershipRoleType,
     Person,
     ContactPerson,
@@ -38,6 +39,7 @@ class SDGAdmin(admin.ModelAdmin):
 
 admin.site.register(Project)
 admin.site.register(Partnership)
+admin.site.register(PartnershipRole)
 admin.site.register(PartnershipRoleType, PartnershipRoleTypeAdmin)
 admin.site.register(Person)
 admin.site.register(ContactPerson)
