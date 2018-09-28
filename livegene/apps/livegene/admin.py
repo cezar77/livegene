@@ -9,6 +9,7 @@ from .models import (
     PartnershipRole,
     PartnershipRoleType,
     Person,
+    PersonRole,
     ContactPerson,
     Country,
     SDG,
@@ -42,6 +43,7 @@ admin.site.register(Partnership)
 admin.site.register(PartnershipRole)
 admin.site.register(PartnershipRoleType, PartnershipRoleTypeAdmin)
 admin.site.register(Person)
+admin.site.register(PersonRole)
 admin.site.register(ContactPerson)
 admin.site.register(Country)
 admin.site.register(SDG, SDGAdmin)

@@ -1,0 +1,1509 @@
+[
+    {
+        "fields": {
+            "percent": 60,
+            "person": [
+                "omwai"
+            ],
+            "project": 1
+        },
+        "pk": 1,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 5,
+            "person": [
+                "omwai"
+            ],
+            "project": 15
+        },
+        "pk": 2,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 5,
+            "person": [
+                "omwai"
+            ],
+            "project": 16
+        },
+        "pk": 3,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 10,
+            "person": [
+                "omwai"
+            ],
+            "project": 19
+        },
+        "pk": 4,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 10,
+            "person": [
+                "omwai"
+            ],
+            "project": 20
+        },
+        "pk": 5,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 10,
+            "person": [
+                "omwai"
+            ],
+            "project": 32
+        },
+        "pk": 6,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 40,
+            "person": [
+                "jojango"
+            ],
+            "project": 1
+        },
+        "pk": 7,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 3,
+            "person": [
+                "jojango"
+            ],
+            "project": 13
+        },
+        "pk": 8,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 5,
+            "person": [
+                "jojango"
+            ],
+            "project": 15
+        },
+        "pk": 9,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 19,
+            "person": [
+                "jojango"
+            ],
+            "project": 21
+        },
+        "pk": 10,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 17,
+            "person": [
+                "jojango"
+            ],
+            "project": 28
+        },
+        "pk": 11,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 16,
+            "person": [
+                "jojango"
+            ],
+            "project": 30
+        },
+        "pk": 12,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 65,
+            "person": [
+                "rmrode"
+            ],
+            "project": 1
+        },
+        "pk": 13,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 5,
+            "person": [
+                "rmrode"
+            ],
+            "project": 16
+        },
+        "pk": 14,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 5,
+            "person": [
+                "rmrode"
+            ],
+            "project": 44
+        },
+        "pk": 15,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 25,
+            "person": [
+                "rmrode"
+            ],
+            "project": 32
+        },
+        "pk": 16,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 5,
+            "person": [
+                "skemp"
+            ],
+            "project": 1
+        },
+        "pk": 17,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 2.5,
+            "person": [
+                "skemp"
+            ],
+            "project": 3
+        },
+        "pk": 18,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 2.5,
+            "person": [
+                "skemp"
+            ],
+            "project": 4
+        },
+        "pk": 19,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 30,
+            "person": [
+                "skemp"
+            ],
+            "project": 5
+        },
+        "pk": 20,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 5,
+            "person": [
+                "skemp"
+            ],
+            "project": 6
+        },
+        "pk": 21,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 25,
+            "person": [
+                "skemp"
+            ],
+            "project": 7
+        },
+        "pk": 22,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 5,
+            "person": [
+                "skemp"
+            ],
+            "project": 18
+        },
+        "pk": 23,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 15,
+            "person": [
+                "skemp"
+            ],
+            "project": 44
+        },
+        "pk": 24,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 10,
+            "person": [
+                "skemp"
+            ],
+            "project": 27
+        },
+        "pk": 25,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 60,
+            "person": [
+                "ekefena"
+            ],
+            "project": 1
+        },
+        "pk": 26,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 40,
+            "person": [
+                "ekefena"
+            ],
+            "project": 25
+        },
+        "pk": 27,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 50,
+            "person": [
+                "ategenu"
+            ],
+            "project": 2
+        },
+        "pk": 28,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 50,
+            "person": [
+                "ategenu"
+            ],
+            "project": 32
+        },
+        "pk": 29,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 50,
+            "person": [
+                "kmamo"
+            ],
+            "project": 2
+        },
+        "pk": 30,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 50,
+            "person": [
+                "kmamo"
+            ],
+            "project": 32
+        },
+        "pk": 31,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 100,
+            "person": [
+                "kgeremew"
+            ],
+            "project": 51
+        },
+        "pk": 32,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 75,
+            "person": [
+                "tdessie"
+            ],
+            "project": 2
+        },
+        "pk": 33,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 5,
+            "person": [
+                "tdessie"
+            ],
+            "project": 32
+        },
+        "pk": 34,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 10,
+            "person": [
+                "tdessie"
+            ],
+            "project": 33
+        },
+        "pk": 35,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 10,
+            "person": [
+                "tdessie"
+            ],
+            "project": 34
+        },
+        "pk": 36,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 100,
+            "person": [
+                "fgetachew"
+            ],
+            "project": 2
+        },
+        "pk": 37,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 100,
+            "person": [
+                "hkassaye"
+            ],
+            "project": 2
+        },
+        "pk": 38,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 100,
+            "person": [
+                "talemayehu"
+            ],
+            "project": 2
+        },
+        "pk": 39,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 50,
+            "person": [
+                "ohanotte"
+            ],
+            "project": 2
+        },
+        "pk": 40,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "ohanotte"
+            ],
+            "project": 44
+        },
+        "pk": 41,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 10,
+            "person": [
+                "ohanotte"
+            ],
+            "project": 8
+        },
+        "pk": 42,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "ohanotte"
+            ],
+            "project": 26
+        },
+        "pk": 43,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 25,
+            "person": [
+                "kmarshall"
+            ],
+            "project": 3
+        },
+        "pk": 44,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 5,
+            "person": [
+                "kmarshall"
+            ],
+            "project": 23
+        },
+        "pk": 45,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 22,
+            "person": [
+                "kmarshall"
+            ],
+            "project": 37
+        },
+        "pk": 46,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 8,
+            "person": [
+                "kmarshall"
+            ],
+            "project": 43
+        },
+        "pk": 47,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 6,
+            "person": [
+                "kmarshall"
+            ],
+            "project": 26
+        },
+        "pk": 48,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 10,
+            "person": [
+                "kmarshall"
+            ],
+            "project": 27
+        },
+        "pk": 49,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 9,
+            "person": [
+                "kmarshall"
+            ],
+            "project": 30
+        },
+        "pk": 50,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 15,
+            "person": [
+                "kmarshall"
+            ],
+            "project": 44
+        },
+        "pk": 51,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 30,
+            "person": [
+                "mogugo"
+            ],
+            "project": 3
+        },
+        "pk": 52,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 30,
+            "person": [
+                "mogugo"
+            ],
+            "project": 5
+        },
+        "pk": 53,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 10,
+            "person": [
+                "mogugo"
+            ],
+            "project": 6
+        },
+        "pk": 54,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 7,
+            "person": [
+                "mogugo"
+            ],
+            "project": 9
+        },
+        "pk": 55,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 23,
+            "person": [
+                "mogugo"
+            ],
+            "project": 29
+        },
+        "pk": 56,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 25,
+            "person": [
+                "rmanyu"
+            ],
+            "project": 26
+        },
+        "pk": 57,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 25,
+            "person": [
+                "rmanyu"
+            ],
+            "project": 28
+        },
+        "pk": 58,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 25,
+            "person": [
+                "rmanyu"
+            ],
+            "project": 30
+        },
+        "pk": 59,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 12.5,
+            "person": [
+                "rmanyu"
+            ],
+            "project": 33
+        },
+        "pk": 60,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 5,
+            "person": [
+                "rmanyu"
+            ],
+            "project": 37
+        },
+        "pk": 61,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 7.5,
+            "person": [
+                "rmanyu"
+            ],
+            "project": 44
+        },
+        "pk": 62,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 32.5,
+            "person": [
+                "ptoye"
+            ],
+            "project": 6
+        },
+        "pk": 63,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "ptoye"
+            ],
+            "project": 9
+        },
+        "pk": 64,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 7.5,
+            "person": [
+                "ptoye"
+            ],
+            "project": 48
+        },
+        "pk": 65,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 10,
+            "person": [
+                "ptoye"
+            ],
+            "project": 47
+        },
+        "pk": 66,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "ptoye"
+            ],
+            "project": 29
+        },
+        "pk": 67,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 10,
+            "person": [
+                "ptoye"
+            ],
+            "project": 32
+        },
+        "pk": 68,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 35,
+            "person": [
+                "hjianlin"
+            ],
+            "project": 10
+        },
+        "pk": 69,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 30,
+            "person": [
+                "hjianlin"
+            ],
+            "project": 26
+        },
+        "pk": 70,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 35,
+            "person": [
+                "hjianlin"
+            ],
+            "project": 30
+        },
+        "pk": 71,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 3,
+            "person": [
+                "eoyieng"
+            ],
+            "project": 13
+        },
+        "pk": 72,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 2,
+            "person": [
+                "eoyieng"
+            ],
+            "project": 15
+        },
+        "pk": 73,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 5,
+            "person": [
+                "eoyieng"
+            ],
+            "project": 16
+        },
+        "pk": 74,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 19,
+            "person": [
+                "eoyieng"
+            ],
+            "project": 21
+        },
+        "pk": 75,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 41,
+            "person": [
+                "eoyieng"
+            ],
+            "project": 28
+        },
+        "pk": 76,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 30,
+            "person": [
+                "eoyieng"
+            ],
+            "project": 30
+        },
+        "pk": 77,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 3,
+            "person": [
+                "jaudho"
+            ],
+            "project": 13
+        },
+        "pk": 78,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 2,
+            "person": [
+                "jaudho"
+            ],
+            "project": 16
+        },
+        "pk": 79,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 19,
+            "person": [
+                "jaudho"
+            ],
+            "project": 21
+        },
+        "pk": 80,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 25,
+            "person": [
+                "jaudho"
+            ],
+            "project": 22
+        },
+        "pk": 81,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "jaudho"
+            ],
+            "project": 26
+        },
+        "pk": 82,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "jaudho"
+            ],
+            "project": 28
+        },
+        "pk": 83,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 11,
+            "person": [
+                "jaudho"
+            ],
+            "project": 30
+        },
+        "pk": 84,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 78,
+            "person": [
+                "jkariuki"
+            ],
+            "project": 24
+        },
+        "pk": 85,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 60,
+            "person": [
+                "elyattu"
+            ],
+            "project": 1
+        },
+        "pk": 86,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 40,
+            "person": [
+                "elyattu"
+            ],
+            "project": 25
+        },
+        "pk": 87,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 10,
+            "person": [
+                "eanyona"
+            ],
+            "project": 18
+        },
+        "pk": 88,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "eanyona"
+            ],
+            "project": 28
+        },
+        "pk": 89,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "eanyona"
+            ],
+            "project": 30
+        },
+        "pk": 90,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "eanyona"
+            ],
+            "project": 32
+        },
+        "pk": 91,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "eanyona"
+            ],
+            "project": 34
+        },
+        "pk": 92,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 10,
+            "person": [
+                "eanyona"
+            ],
+            "project": 52
+        },
+        "pk": 93,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 2.5,
+            "person": [
+                "eouma"
+            ],
+            "project": 37
+        },
+        "pk": 94,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 2.5,
+            "person": [
+                "cnamukwaya"
+            ],
+            "project": 37
+        },
+        "pk": 95,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 8,
+            "person": [
+                "lnjeri"
+            ],
+            "project": 9
+        },
+        "pk": 96,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 12,
+            "person": [
+                "lnjeri"
+            ],
+            "project": 18
+        },
+        "pk": 97,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "lnjeri"
+            ],
+            "project": 27
+        },
+        "pk": 98,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "lnjeri"
+            ],
+            "project": 29
+        },
+        "pk": 99,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "lnjeri"
+            ],
+            "project": 33
+        },
+        "pk": 100,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "lnjeri"
+            ],
+            "project": 34
+        },
+        "pk": 101,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 40,
+            "person": [
+                "dkiereini"
+            ],
+            "project": 1
+        },
+        "pk": 102,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 2.5,
+            "person": [
+                "dkiereini"
+            ],
+            "project": 3
+        },
+        "pk": 103,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 2.5,
+            "person": [
+                "dkiereini"
+            ],
+            "project": 4
+        },
+        "pk": 104,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 2.5,
+            "person": [
+                "dkiereini"
+            ],
+            "project": 5
+        },
+        "pk": 105,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 2.5,
+            "person": [
+                "dkiereini"
+            ],
+            "project": 7
+        },
+        "pk": 106,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "dkiereini"
+            ],
+            "project": 30
+        },
+        "pk": 107,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 10,
+            "person": [
+                "dkiereini"
+            ],
+            "project": 32
+        },
+        "pk": 108,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 10,
+            "person": [
+                "dkiereini"
+            ],
+            "project": 33
+        },
+        "pk": 109,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 10,
+            "person": [
+                "dkiereini"
+            ],
+            "project": 34
+        },
+        "pk": 110,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 25,
+            "person": [
+                "mtemesgen"
+            ],
+            "project": 28
+        },
+        "pk": 111,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 40,
+            "person": [
+                "mtemesgen"
+            ],
+            "project": 32
+        },
+        "pk": 112,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 35,
+            "person": [
+                "mtemesgen"
+            ],
+            "project": 34
+        },
+        "pk": 113,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 50,
+            "person": [
+                "mmwazonga"
+            ],
+            "project": 28
+        },
+        "pk": 114,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 50,
+            "person": [
+                "mmwazonga"
+            ],
+            "project": 30
+        },
+        "pk": 115,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 1,
+            "person": [
+                "ibaltenweck"
+            ],
+            "project": 28
+        },
+        "pk": 116,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 100,
+            "person": [
+                "cmuteti"
+            ],
+            "project": 33
+        },
+        "pk": 117,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 100,
+            "person": [
+                "anjeri"
+            ],
+            "project": 52
+        },
+        "pk": 118,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 25,
+            "person": [
+                "soyola"
+            ],
+            "project": 30
+        },
+        "pk": 119,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "gmuiruri"
+            ],
+            "project": 26
+        },
+        "pk": 120,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "gmuiruri"
+            ],
+            "project": 30
+        },
+        "pk": 121,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "gmuiruri"
+            ],
+            "project": 32
+        },
+        "pk": 122,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "gmuiruri"
+            ],
+            "project": 33
+        },
+        "pk": 123,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "gmuiruri"
+            ],
+            "project": 34
+        },
+        "pk": 124,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 100,
+            "person": [
+                "amahembe"
+            ],
+            "project": 51
+        },
+        "pk": 125,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 100,
+            "person": [
+                "yyue"
+            ],
+            "project": 5
+        },
+        "pk": 126,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 100,
+            "person": [
+                "plate"
+            ],
+            "project": 6
+        },
+        "pk": 127,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 25,
+            "person": [
+                "ecook"
+            ],
+            "project": 6
+        },
+        "pk": 128,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 25,
+            "person": [
+                "ecook"
+            ],
+            "project": 29
+        },
+        "pk": 129,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "wdejene"
+            ],
+            "project": 2
+        },
+        "pk": 130,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 4,
+            "person": [
+                "wdejene"
+            ],
+            "project": 51
+        },
+        "pk": 131,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 7.5,
+            "person": [
+                "wdejene"
+            ],
+            "project": 44
+        },
+        "pk": 132,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 10,
+            "person": [
+                "wdejene"
+            ],
+            "project": 27
+        },
+        "pk": 133,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 18.5,
+            "person": [
+                "wdejene"
+            ],
+            "project": 28
+        },
+        "pk": 134,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "wdejene"
+            ],
+            "project": 30
+        },
+        "pk": 135,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 20,
+            "person": [
+                "wdejene"
+            ],
+            "project": 32
+        },
+        "pk": 136,
+        "model": "livegene.personrole"
+    },
+    {
+        "fields": {
+            "percent": 100,
+            "person": [
+                "gndambuki"
+            ],
+            "project": 6
+        },
+        "pk": 137,
+        "model": "livegene.personrole"
+    }
+]
