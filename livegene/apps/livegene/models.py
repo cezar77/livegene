@@ -204,7 +204,7 @@ class CountryManager(models.Manager):
 
 
 class Country(models.Model):
-    country = CountryField()
+    country = CountryField(unique=True)
 
     objects = CountryManager()
 
