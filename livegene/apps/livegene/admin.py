@@ -32,9 +32,9 @@ class OrganisationAdmin(admin.ModelAdmin):
     fields = ('short_name', 'full_name', 'logo', 'logo_url', 'country')
     readonly_fields = ('logo',)
     formfield_overrides = {
-        models.CharField: {'widget': TextInput(attrs={'size':'140'})},
+        models.CharField: {'widget': TextInput(attrs={'size':'65'})},
         models.URLField: {'widget': AdminURLFieldWidget(
-                                        attrs={'style': 'width: 40em'}
+                                        attrs={'style': 'width: 55em'}
                                     )
                          },
     }

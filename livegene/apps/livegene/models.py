@@ -119,7 +119,7 @@ class Organisation(models.Model):
     @property
     def logo(self):
         return format_html(
-            '<img src="{logo_url}" alt="{short_name}">',
+            '<img src="{logo_url}" alt="{short_name}" style="width: 400px;">',
             logo_url=self.logo_url,
             short_name=self.short_name
         )
