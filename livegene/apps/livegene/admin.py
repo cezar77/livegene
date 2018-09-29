@@ -25,6 +25,11 @@ class PartnershipRoleTypeAdmin(admin.ModelAdmin):
     readonly_fields = ('id',)
 
 
+class PersonRoleAdmin(admin.ModelAdmin):
+    fields = ('project', 'person', 'percent', 'total_percentage')
+    readonly_fields = ('total_percentage',)
+
+
 class SDGAdmin(admin.ModelAdmin):
     list_display = ('headline', 'full_name')
     fields = ('headline', 'full_name', 'color', 'link', 'logo', 'logo_url')
@@ -43,7 +48,7 @@ admin.site.register(Partnership)
 admin.site.register(PartnershipRole)
 admin.site.register(PartnershipRoleType, PartnershipRoleTypeAdmin)
 admin.site.register(Person)
-admin.site.register(PersonRole)
+admin.site.register(PersonRole, PersonRoleAdmin)
 admin.site.register(ContactPerson)
 admin.site.register(Country)
 admin.site.register(SDG, SDGAdmin)

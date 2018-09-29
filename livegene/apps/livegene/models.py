@@ -171,6 +171,12 @@ class PersonRole(models.Model):
     def __str__(self):
         return '{0} - {1}'.format(self.project, self.person)
 
+    @property
+    def total_percentage(self):
+        qs = PersonRole.objects.filter(person=self.person)
+        total = sum([item.percent for item in qs])
+        return total
+
 
 class ContactPerson(models.Model):
     title = models.CharField(max_length=30, blank=True)
