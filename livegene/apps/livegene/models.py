@@ -116,6 +116,14 @@ class Organisation(models.Model):
     def __str__(self):
         return self.full_name
 
+    @property
+    def logo(self):
+        return format_html(
+            '<img src="{logo_url}" alt="{short_name}">',
+            logo_url=self.logo_url,
+            short_name=self.short_name
+        )
+
 
 class PersonManager(models.Manager):
     def get_by_natural_key(self, username):
@@ -246,6 +254,12 @@ class CountryRole(models.Model):
     def __str__(self):
         return '{0} - {1}'.format(self.project, self.country)
 
+    @property
+    def total_percentage(self):
+        qs = CountryRole.objects.filter(project=self.project)
+        total = sum([item.percent for item in qs])
+        return total
+
 
 class SDG(models.Model):
     """
@@ -284,6 +298,7 @@ class SDGRole(models.Model):
     )
     sdg = models.ForeignKey(
         'SDG',
+        verbose_name='Sustainable Development Goal',
         on_delete=models.CASCADE,
         related_name='roles'
     )
@@ -292,10 +307,18 @@ class SDGRole(models.Model):
     )
 
     class Meta:
+        verbose_name = 'Sustainable Development Goal Role'
+        verbose_name_plural = 'Sustainable Development Goal Roles'
         unique_together = ('project', 'sdg')
 
     def __str__(self):
         return '{0} - {1}'.format(self.project, self.sdg)
+
+    @property
+    def total_percentage(self):
+        qs = SDGRole.objects.filter(project=self.project)
+        total = sum([item.percent for item in qs])
+        return total
 
 
 class SamplingActivity(models.Model):
