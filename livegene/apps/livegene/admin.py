@@ -12,6 +12,7 @@ from .models import (
     PersonRole,
     ContactPerson,
     Country,
+    CountryRole,
     SDG,
     SamplingActivity,
     SamplingDocumentType,
@@ -51,6 +52,7 @@ admin.site.register(Person)
 admin.site.register(PersonRole, PersonRoleAdmin)
 admin.site.register(ContactPerson)
 admin.site.register(Country)
+admin.site.register(CountryRole)
 admin.site.register(SDG, SDGAdmin)
 admin.site.register(SamplingDocumentType)
 admin.site.register(SamplingActivity)
