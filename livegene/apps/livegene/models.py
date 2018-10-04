@@ -22,7 +22,7 @@ class Project(models.Model):
         on_delete=models.DO_NOTHING,
         related_name='projects'
     )
-    group = models.CharField(max_length=55)
+    projects_group = models.CharField(max_length=55)
     #donor = models.ForeignKey(
     #    'Organisation',
     #    on_delete=models.DO_NOTHING,
